@@ -7,25 +7,38 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #ff7700;
-      color: white;
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
-      background: #ff5500;
-      padding: 20px;
-      border-radius: 12px;
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #262626;
+      padding: 10px 20px;
+      border-bottom: 2px solid #ff7700;
+    }
+    .navbar img {
+      height: 40px;
+      border-radius: 50%;
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.5em;
+      color: #ff7700;
     }
     .links {
-      margin-top: 30px;
+      margin-top: 40px;
     }
     .link-btn {
       display: block;
       margin: 15px auto;
       padding: 15px;
-      width: 250px;
-      background: #ff9900;
+      width: 280px;
+      background: #ff7700;
       color: white;
       text-decoration: none;
       border-radius: 8px;
@@ -34,18 +47,23 @@
       transition: 0.3s;
     }
     .link-btn:hover {
-      background: #ffb733;
+      background: #ff9900;
       transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>🔥 Z Guy Official Links 🔥</h1>
+  <div class="navbar">
+    <img src="../ZGuy.png" alt="Z Guy Logo">
+    <h1>Z Guy Links</h1>
+    <a class="link-btn" href="https://zguy-official.github.io/">⬅ Back</a>
+  </div>
+
   <div class="links">
-    <a class="link-btn" href="https://youtube.com/@z_guy_official?si=wAxw-y_80t9PRbNf" target="_blank">YouTube</a>
-    <a class="link-btn" href="https://www.tiktok.com/@zkingdom_studios?_t=ZG-8zgxxO3u9om&_r=1" target="_blank">Tiktok</a>
-    <a class="link-btn" href="https://discord.gg/4c73V5fyKu" target="_blank"> Discord</a>
-    <a class="link-btn" href="https://youtube.com/@mistytires_yt?si=20fHCKQa3Tb0qNgr" target="_blank">MistyTires's Youtube</a>
+    <a class="link-btn" href="https://youtube.com/@z_guy_official?si=wAxw-y_80t9PRbNf" target="_blank">📺 YouTube</a>
+    <a class="link-btn" href="https://www.tiktok.com/@zkingdom_studios?_t=ZG-8zgxxO3u9om&_r=1" target="_blank">🎵 TikTok</a>
+    <a class="link-btn" href="https://discord.gg/4c73V5fyKu" target="_blank">💬 Discord</a>
+    <a class="link-btn" href="https://youtube.com/@mistytires_yt?si=20fHCKQa3Tb0qNgr" target="_blank">🎬 MistyTires’s YouTube</a>
   </div>
 </body>
 </html>
